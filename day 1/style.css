@@ -1,0 +1,63 @@
+html, body {
+  background-image: url("https://i.imgur.com/TEBOTxj.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+  margin: 0; padding: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+span h1 {
+  color: white;
+  text-align: center;
+  /*margin-top: 150px;*/
+  font-family: 'Nunito', sans-serif;
+  font-size: 70px;
+  text-shadow: #080808 1px 1px 5px;
+  
+  
+  
+}
+
+#prateleira {
+  max-width: 70%;
+  min-width: 30%;
+  height: 150px;
+  background-color: #fafafa;
+  opacity: 0.79;
+  box-shadow:
+  0.1px 2.4px 13.4px rgba(0, 0, 0, 0.026),
+  0.3px 5.6px 24.5px rgba(0, 0, 0, 0.042),
+  0.6px 10.1px 33.2px rgba(0, 0, 0, 0.053),
+  1px 16.7px 39.4px rgba(0, 0, 0, 0.062),
+  1.6px 27.5px 44px rgba(0, 0, 0, 0.07),
+  2.8px 48.1px 50.1px rgba(0, 0, 0, 0.081),
+  6px 104px 80px rgba(0, 0, 0, 0.11);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 70px;
+  border-radius: 20px;
+}
+
+
+main section ul{
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 27px;
+  padding-top: 85px;  
+}
+
+div ul li {
+  list-style: none;
+  
+  
+}
+
+div ul li a img {
+  min-width: 30px;
+  max-width: 80px;
+  margin-top: -50px;
+}
