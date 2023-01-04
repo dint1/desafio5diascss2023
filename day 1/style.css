@@ -40,6 +40,11 @@ span h1 {
   border-radius: 20px;
 }
 
+main {
+  margin-top: 130px;
+  
+}
+
 
 main section ul{
   margin: auto;
